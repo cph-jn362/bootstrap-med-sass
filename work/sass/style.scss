@@ -1,0 +1,16 @@
+// Roboto skrifttype fra Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+// Bootstrap required
+@import "../bootstrap/scss/bootstrap";
+
+
+
+
+
+// mine egene styles
+@import "variables";
+@import "mixin";
+@import "main"; 
+

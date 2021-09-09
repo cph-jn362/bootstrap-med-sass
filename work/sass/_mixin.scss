@@ -1,0 +1,29 @@
+@mixin bilBilleder{
+    max-width: 100%;
+}
+
+@mixin figureStyling{
+    background-color: $baggrundsFarve;
+}
+
+@mixin figcaptionBorder{
+    border-left: 2px solid $borderFarve; 
+    border-bottom: 2px solid $borderFarve; 
+    border-right: 2px solid $borderFarve; 
+}
+
+@mixin tekstBokse{
+    background-color: $baggrundsFarve;
+    padding: 2em;
+    border: 2px solid $borderFarve; 
+}
+
+@mixin knapStyling{
+    background-color: $knapFarve;
+    color: white;
+    border: none;
+    font-family: $paragrafSkrift;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px;
+}

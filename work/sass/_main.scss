@@ -1,0 +1,61 @@
+p{
+    font-family: $paragrafSkrift;
+} 
+
+h1{
+    font-family: $headingSkrift;
+} 
+
+h2{
+    font-family: $headingSkrift;
+    text-transform: uppercase;
+}
+
+figure{ 
+    @include figureStyling;
+    img{
+        @include bilBilleder;
+    }
+    figcaption{
+        padding: 2px 8px;
+        @include figcaptionBorder;
+    }
+}
+
+.tekstboks{
+    @include tekstBokse;
+}
+
+.bestil-boks{
+    @include tekstBokse;
+}
+
+.shows{
+    ul{display: inline-block;
+        padding: 0 0;
+        li{
+            list-style: none;
+            @include tekstBokse;
+            padding: 0.5em;
+
+        }
+    }
+}
+
+.dato{
+    color: rgb(184, 0, 0);
+}
+
+ul{
+    a{
+    font-family: $paragrafSkrift;
+    }
+}
+
+button{
+    @include knapStyling;
+        &:hover{
+            background-color: lighten($knapFarve, 10%);
+        }
+}
+
